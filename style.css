@@ -25,7 +25,7 @@ body{
     justify-content: center;
     margin-top: 14vh;
     background-color: white;
-    width:66%;
+    width:50%;
     border-radius:.5vw;
     box-shadow: 0 0 .6vw 0 rgba(0, 0, 0, 0.1);
 }
@@ -35,6 +35,27 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom:1vh;
+}
+
+#ButtonDiv{
+    display:flex;
+    justify-content: space-between;
+    width:80%;
+    align-self: center;
+    margin:1vh;
+}
+
+.quizButtonText{
+    background-color:#001219;
+    color:#94d2bd;
+    font-family: verdana;
+    font-size: 2vh;
+    padding:1.5vh;
+    border:.4vh solid #0a9396;
+    border-radius:1vh;
+    box-shadow:  0 .4vh .4vw 0 rgba(0, 0, 0, 0.2);
+
 }
 
 #HeaderTitle {
@@ -52,4 +73,16 @@ body{
     padding-left:3vh;
 }
 
+.option{
+    padding:.5vh;
+    background-color:#f7f7f7;
+    color:#11151c;
+    font-size:2vh;
+    font-family:verdana;
+    border-radius:.5vw;
+    width:65%;
+    padding-left:2vw;
+    border:.25vh solid #ada8b6;
+    margin:2vh;
+}
 
