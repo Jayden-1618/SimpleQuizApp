@@ -1,4 +1,9 @@
-
+body{
+    display:flex;
+    flex-direction:column;
+    background-color:#e9ecef;
+    align-items:center;
+}
 
 #Header {
     background-color: #001219;
@@ -14,9 +19,37 @@
 
 }
 
+#QuestionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 14vh;
+    background-color: white;
+    width:66%;
+    border-radius:.5vw;
+    box-shadow: 0 0 .6vw 0 rgba(0, 0, 0, 0.1);
+}
+
+#OptionDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #HeaderTitle {
     color:#94d2bd;
     font-size:3vh;
     font-family:verdana;
     padding-bottom:.2vh;
 }
+
+#Question {
+    color:#11151c;
+    font-size:3vh;
+    font-family:verdana;
+    padding-bottom:.2vh;
+    padding-left:3vh;
+}
+
+
