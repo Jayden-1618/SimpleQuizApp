@@ -1,0 +1,22 @@
+
+
+#Header {
+    background-color: #001219;
+    width: 100%;
+    margin:0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1vh solid #0a9396;
+
+}
+
+#HeaderTitle {
+    color:#94d2bd;
+    font-size:3vh;
+    font-family:verdana;
+    padding-bottom:.2vh;
+}
